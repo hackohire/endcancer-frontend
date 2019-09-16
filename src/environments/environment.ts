@@ -4,14 +4,14 @@
 
 export const environment = {
   production: false,
-  COGNITO_AUTH_DOMAIN: 'https://encancer.auth.us-east-1.amazoncognito.com',
+  COGNITO_AUTH_DOMAIN: 'https://endcancer.auth.us-east-1.amazoncognito.com',
   platform_graphql_url: 'http://localhost:3000/graphql',
   graphql_url: 'http://localhost:3200/graphql',
   applicationId: '5d2ef428bbfa6576b357d5d4',
-  encancerFilesBucket: 'https://encancer-files-prod.s3.amazonaws.com/public/',
+  encancerFilesBucket: 'https://endcancer-files-prod.s3.amazonaws.com/public/',
   oauth: {
     // Domain name
-    domain: 'encancer.auth.us-east-1.amazoncognito.com',
+    domain: 'endcancer.auth.us-east-1.amazoncognito.com',
 
     // Authorized scopes
     scope: ['email', 'profile', 'openid'],
