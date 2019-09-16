@@ -1,12 +1,12 @@
 {
 	"auth": {
-		"encancer408a7ae3": {
+		"endcancer042abde8": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation"
 		}
 	},
 	"storage": {
-		"encancer": {
+		"endcancer": {
 			"service": "S3",
 			"providerPlugin": "awscloudformation"
 		}

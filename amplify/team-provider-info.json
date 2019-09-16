@@ -1,18 +1,18 @@
 {
     "prod": {
         "awscloudformation": {
-            "AuthRoleName": "encancer-prod-20190916032119-authRole",
-            "UnauthRoleArn": "arn:aws:iam::744573631627:role/encancer-prod-20190916032119-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::744573631627:role/encancer-prod-20190916032119-authRole",
+            "AuthRoleName": "endcancer-prod-20190916115711-authRole",
+            "UnauthRoleArn": "arn:aws:iam::744573631627:role/endcancer-prod-20190916115711-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::744573631627:role/endcancer-prod-20190916115711-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "encancer-prod-20190916032119-deployment",
-            "UnauthRoleName": "encancer-prod-20190916032119-unauthRole",
-            "StackName": "encancer-prod-20190916032119",
-            "StackId": "arn:aws:cloudformation:us-east-1:744573631627:stack/encancer-prod-20190916032119/f4b2bf00-d802-11e9-a507-0aa1af63e98c"
+            "DeploymentBucketName": "endcancer-prod-20190916115711-deployment",
+            "UnauthRoleName": "endcancer-prod-20190916115711-unauthRole",
+            "StackName": "endcancer-prod-20190916115711",
+            "StackId": "arn:aws:cloudformation:us-east-1:744573631627:stack/endcancer-prod-20190916115711/063404d0-d84b-11e9-98f4-0a8540e42a70"
         },
         "categories": {
             "auth": {
-                "encancer408a7ae3": {}
+                "endcancer042abde8": {}
             }
         }
     }
