@@ -13,7 +13,7 @@ import { switchMap, map, tap } from 'rxjs/operators';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'encancer';
+  title = 'endcancer';
   constructor(
     private authService: AuthService,
     private store: Store<AppState>

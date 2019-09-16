@@ -25,7 +25,7 @@ export class CommentComponent implements OnInit {
   replyTextEditorData: BlockToolData;
 
   anonymousAvatar = require('src/assets/images/anonymous-avatar.jpg');
-  codemarketBucketURL = environment.encancerFilesBucket;
+  codemarketBucketURL = environment.endcancerFilesBucket;
 
   constructor(
     public authService: AuthService,

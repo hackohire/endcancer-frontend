@@ -15,7 +15,7 @@ import { environment } from 'src/environments/environment';
 export class ProductComponent implements OnInit {
   @Input() product: Product;
   anonymousAvatar = require('src/assets/images/anonymous-avatar.jpg');
-  codemarketBucketURL = environment.encancerFilesBucket;
+  codemarketBucketURL = environment.endcancerFilesBucket;
   constructor(
     private store: Store<AppState>,
     public productService: ProductService

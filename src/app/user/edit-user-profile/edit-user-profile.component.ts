@@ -31,7 +31,7 @@ export class EditUserProfileComponent implements OnInit {
   currentAvatarUrl: string;
 
   anonymousAvatar = require('src/assets/images/anonymous-avatar.jpg');
-  codemarketBucketURL = environment.encancerFilesBucket;
+  codemarketBucketURL = environment.endcancerFilesBucket;
 
   get avatar() { return this.userProfileForm.get('avatar'); }
 
@@ -119,7 +119,7 @@ export class EditUserProfileComponent implements OnInit {
 
     Storage.vault.put(fileName, pic, {
 
-      bucket: 'encancer-files',
+      bucket: 'endcancer-files',
       path: 'avatar',
       level: 'public',
 

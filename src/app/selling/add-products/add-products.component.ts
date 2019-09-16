@@ -277,7 +277,7 @@ export class AddProductsComponent implements OnInit, OnDestroy {
 
         Storage.vault.put(fileName, f, {
 
-          bucket: 'encancer-files',
+          bucket: 'endcancer-files',
 
           level: 'public',
 

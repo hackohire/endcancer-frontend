@@ -8,7 +8,7 @@ export const environment = {
   platform_graphql_url: 'http://localhost:3000/graphql',
   graphql_url: 'http://localhost:3200/graphql',
   applicationId: '5d2ef428bbfa6576b357d5d4',
-  encancerFilesBucket: 'https://endcancer-files-prod.s3.amazonaws.com/public/',
+  endcancerFilesBucket: 'https://endcancer-files-prod.s3.amazonaws.com/public/',
   oauth: {
     // Domain name
     domain: 'endcancer.auth.us-east-1.amazoncognito.com',

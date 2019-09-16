@@ -123,7 +123,7 @@ export class EditorComponent implements OnInit, OnDestroy, OnChanges {
 
                 return Storage.vault.put(fileName, file, {
 
-                  bucket: 'encancer-files',
+                  bucket: 'endcancer-files',
 
                   level: 'public',
 
@@ -133,7 +133,7 @@ export class EditorComponent implements OnInit, OnDestroy, OnChanges {
                   return {
                     success: 1,
                     file: {
-                      url: environment.encancerFilesBucket + uploaded.key,
+                      url: environment.endcancerFilesBucket + uploaded.key,
                       // any other image data you want to store, such as width, height, color, extension, etc
                     }
                   };

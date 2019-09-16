@@ -44,7 +44,7 @@ export class DetailsComponent implements OnInit {
   commentsList: any[];
   likeCount: number;
   anonymousAvatar = require('src/assets/images/anonymous-avatar.jpg');
-  codemarketBucketURL = environment.encancerFilesBucket;
+  codemarketBucketURL = environment.endcancerFilesBucket;
 
   breadcumb: BreadCumb;
 

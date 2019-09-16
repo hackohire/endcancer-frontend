@@ -36,7 +36,7 @@ export class ProductDetailsComponent implements OnInit {
   likeCount: number;
 
   anonymousAvatar = require('src/assets/images/anonymous-avatar.jpg');
-  codemarketBucketURL = environment.encancerFilesBucket;
+  codemarketBucketURL = environment.endcancerFilesBucket;
 
   commentsList: any[];
 
